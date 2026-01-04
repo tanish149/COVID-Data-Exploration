@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS covid_staging_v1 (
 );
 
 -- Step 3: Perform Bulk Load
-LOAD DATA LOCAL INFILE "C:/Users/TANISH/Desktop/SQL Project/CovidVaccinations.csv"
+LOAD DATA LOCAL INFILE "C:/Users/therestofthepath"
 INTO TABLE covid_staging_v1
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"' 
